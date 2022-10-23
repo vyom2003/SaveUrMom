@@ -1,0 +1,40 @@
+<!Doctype html>
+
+
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Doctor_Interface</title> 
+    <meta charset=utf-8> 
+</head>
+    <body>
+        <h1>View Prescription</h1>
+        <h2><br><br><br>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Blood Group</th>
+                <th>Phone No.</th>
+                <th>Address</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>{{x['name']}}</td>
+                <td>{{x['gender']}}</td>
+                <td>{{x['blood_group']}}</td>
+                <td>{{x['phone_no']}}</td>
+                <td>{{x['address']}}</td>
+                <td>{{x['description']}}</td>
+            </tr>
+        </table>
+        </h2>
+        <br><br><br>
+    <h3>
+    <a href="./Low/">Low Alert Level</a>
+    <br>
+    <a href="./Med/">Physical Symptoms/Medium Alert Level</a>
+    <br>
+    <a href="./High/">High Alert Level</a>
+    </h3>
+        
+    </body>
